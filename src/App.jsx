@@ -1,20 +1,24 @@
+import { BrowserRouter, Router, Routes, Route } from 'react-router-dom';
 import React from 'react'
-import Navbar from '/src/assets/components/Navbar';
-import Footer from '/src/assets/components/Footer';
-import Specialdeal from '/src/assets/components/Specialdeal';
-import ProductCard from '/src/assets/components/ProductCard';
+import MainLayout from './layouts/MainLayout';
+import HomePage from './pages/HomePage';
+import MacBookAir from './pages/MacBookAir';
+import MacBookPro from './pages/MacBookPro';
+import IMac from './pages/IMac';
 
 function App() {
   return (
-  <>
-    <div className="bg-gray-100">
-    <Navbar />
-    <Specialdeal />
-    <ProductCard />
-    <Footer />
+    <Router>
+        <Routes>
+          <Route element={<MainLayout />}>
+            <Route path='/' element={<HomePage />} />
+            <Route path='/macbook_air' element={<MacBookAir />} />
+            <Route path="/macbook_pro" element={<MacBookPro />} />
+            <Route path="/imac" element={<IMac />} />
+          </Route>
+        </Routes>
+    </Router>
 
-    </div>
-  </>
   )
 }
 
