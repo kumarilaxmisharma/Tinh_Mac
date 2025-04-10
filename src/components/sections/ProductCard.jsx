@@ -18,7 +18,7 @@ export default function ProductCard() {
       rating: 4.8,
       description:
         "Apple M-series chip. It delivers lightning-fast processing, all-day battery life, and pro-grade graphics",
-      image: "public/images/IMac carousel.jpg",
+      image: "assets/images/IMac carousel.jpg",
     },
     {
       id: "macbook-air",
@@ -27,7 +27,7 @@ export default function ProductCard() {
       rating: 4.8,
       description:
         "Apple M-series chip. It delivers lightning-fast processing, all-day battery life, and pro-grade graphics",
-      image: "public/images/Macbook Air.jpeg",
+      image: "assets/images/Macbook Air.jpeg",
     },
     {
       id: "macbook-pro-14-16",
@@ -36,7 +36,7 @@ export default function ProductCard() {
       rating: 4.8,
       description:
         "Apple M-series chip. It delivers lightning-fast processing, all-day battery life, and pro-grade graphics",
-      image: "public/images/Macbook Pro 14'' 16''.png",
+      image: "assets/images/Macbook Pro 14'' 16''.png",
     },
     {
       id: "macbook-pro-m4",
@@ -45,7 +45,7 @@ export default function ProductCard() {
       rating: 4.8,
       description:
         "Apple M-series chip. It delivers lightning-fast processing, all-day battery life, and pro-grade graphics",
-      image: "public/images/IMac M4 chip.png",
+      image: "assets/IMac M4 chip.png",
     },
     {
       id: "pro-display-xdr",
@@ -54,7 +54,7 @@ export default function ProductCard() {
       rating: 4.8,
       description:
         "Apple M-series chip. It delivers lightning-fast processing, all-day battery life, and pro-grade graphics",
-      image: "public/images/Pro Display XDR.jpeg",
+      image: "assets/Pro Display XDR.jpeg",
     },
     {
       id: "studio-display",
@@ -63,7 +63,7 @@ export default function ProductCard() {
       rating: 4.8,
       description:
         "Apple M-series chip. It delivers lightning-fast processing, all-day battery life, and pro-grade graphics",
-      image: "public/images/about_mac/Studio Display.png",
+      image: "assets/about_mac/Studio Display.png",
     },
   ]
 

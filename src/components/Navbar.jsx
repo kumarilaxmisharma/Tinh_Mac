@@ -1,7 +1,6 @@
 // components/nav.jsx
 import { Link } from 'react-router-dom';
 import { ShoppingCart, Heart } from "lucide-react";
-import Logo from '/public/images/logo/Logo.png';
 
 const Navbar = () => {
   return (
@@ -10,7 +9,7 @@ const Navbar = () => {
         {/* Logo - Fixed structure and added pl-0 to remove padding */}
         <Link to ={"/"}className="flex items-center space-x-1 cursor-pointer">
           <img 
-          src={Logo} 
+          src="assets/images/logo/Logo.png"
           alt="Logo" 
           className="h-30 object-contain" />
         </Link>
