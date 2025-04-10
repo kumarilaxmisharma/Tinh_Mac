@@ -1,7 +1,7 @@
 import { Heart } from "lucide-react"
 import { useState } from "react"
 // import { useRouter } from "next/router" // For Next.js
-import { useNavigate } from "react-router-dom" // For React Router
+// import { useNavigate } from "react-router-dom" // For React Router
 
 
 export default function ProductCard() {
